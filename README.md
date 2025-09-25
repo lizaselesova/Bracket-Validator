@@ -55,7 +55,7 @@ com.xtm.bracket.validator
 ### Requirements
 
 - Java 17+
-- Maven or Gradle (for build and tests)
+- Maven 
 
 ### Build
 
