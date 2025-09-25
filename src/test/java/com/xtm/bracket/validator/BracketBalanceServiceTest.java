@@ -21,7 +21,7 @@ class BracketBalanceServiceTest {
             "{}[]",
             "({[]})",
             "([]{})",
-            "({[({})]})" // вложенные скобки
+            "({[({})]})"
     })
     void isBalanced_givenValidSequences_returnsTrue(String sequence) {
         Assertions.assertTrue(bracketBalanceService.isBalanced(sequence));
